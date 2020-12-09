@@ -1,4 +1,3 @@
-
 (function () {
   "use strict";
   console.log("app"); // ;( )
@@ -54,15 +53,13 @@
   // boton de monitor
 
   // si no es una página para monitorear, no hace nada.
-  try{
+  try {
     document.getElementById("monitorButton").addEventListener("click", () => {
       app.iniciarMonitor();
     });
-  }catch{
-    console.log("no es página para monitoreo")
+  } catch {
+    console.log("no es página para monitoreo");
   }
-  
- 
 
   /*****************************************************************************
    *

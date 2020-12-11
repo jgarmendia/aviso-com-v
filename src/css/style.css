@@ -46,7 +46,6 @@ body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   flex-direction: column;
-  padding-bottom: 4.2rem;
 }
 
 /*
@@ -281,7 +280,7 @@ a:focus {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding: 1rem 0;
+  padding: 1rem 0 5.2rem 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   text-align: center;
@@ -335,6 +334,7 @@ acordion
 
 .collapse-content {
   margin-top: 2rem;
+  margin-bottom: 2rem;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 

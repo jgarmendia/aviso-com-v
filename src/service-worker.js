@@ -7,7 +7,7 @@
 // nombre del cache actual
 // IMPORTANTE !!!  (se debe cambiar el nombre por cada cambio)
 // var cacheName = 'cambiar-esto';
-const CACHE_VERSION = "v05";
+const CACHE_VERSION = "v07";
 const CACHE_NAME = `${registration.scope}!${CACHE_VERSION}`;
 
 // lista de archivos necesarios para la shell app (index, js, imagenes,css, etc)

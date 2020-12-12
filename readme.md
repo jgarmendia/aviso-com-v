@@ -4,15 +4,16 @@ _Monitor web para el sitio de comisariavirtual.cl_
 
 ## Instalación
 
----
+```bash
 npm install --save-dev
 npx eleventy
----
+```
 
 Correr con:
----
+
+```bash
 npx eleventy --serve
----
+```
 
 ### Usa
 * [11ty](https://www.11ty.dev/)

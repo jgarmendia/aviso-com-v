@@ -9,6 +9,7 @@ module.exports = function(eleventyConfig) {
    eleventyConfig.addPassthroughCopy("src/manifest.webmanifest");
    eleventyConfig.addPassthroughCopy("src/sitemap.xml");
    eleventyConfig.addPassthroughCopy("src/service-worker.js");
+   eleventyConfig.addPassthroughCopy("src/_headers");
   
     // You can return your Config object (optional).
     return {

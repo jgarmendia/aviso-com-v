@@ -1,0 +1,25 @@
+{
+  "name": "aviso-com-v",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgarmendia/aviso-com-v.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgarmendia/aviso-com-v/issues"
+  },
+  "homepage": "https://github.com/jgarmendia/aviso-com-v#readme",
+  "description": "",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "dotenv": "^8.2.0"
+  },
+  "dependencies": {}
+}
